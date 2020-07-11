@@ -6,10 +6,10 @@
     	名稱：<br><input type="text" name="name"><br>
     	
     	留言：<br><textarea rows="50" cols="50" name="message"></textarea><br><br>   	
-    	<input type="submit" value="提交信息"><br>
+    	<input type="submit" value="留言"><br>
     </form>
     <form action="<%=request.getContextPath()%>/msgpane/messages.jsp">
-    	<input type="submit" value="查看留言板">
+    	<input type="submit" value="取消">
     </form>
 <%--  </body>--%>
 </html>
